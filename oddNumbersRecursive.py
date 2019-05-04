@@ -1,7 +1,7 @@
-n = 6
-def printNumOdd(n):
-    if n>=0:
-        printNumOdd(n-2)
+n=6
+def printOdd(n):
+    
+    if n>=1:
+        printOdd(n-2)
         print(n)
-
-printNumOdd(n)
+printOdd(n-1)
